@@ -1,3 +1,20 @@
+/* Basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* Footer atribution */
 .attribution {
   font-size: 11px;
   text-align: center;
