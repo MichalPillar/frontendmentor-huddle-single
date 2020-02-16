@@ -10,6 +10,8 @@ body {
   background: url('../images/bg-desktop.svg') hsl(257, 40%, 49%);
   background-size: cover;
   height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .container {
@@ -30,8 +32,39 @@ body {
 
 .content {
   display: flex;
-  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 2;
   margin: 0 50px;
+}
+
+.content-image {
+  width: 60%;
+}
+
+.content-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content-text {
+  width: 40%;
+  margin: 20px;
+  color: white;
+}
+
+.content-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 20px;
+}
+
+.content-text p {
+  line-height: 1.5rem;
+  margin-bottom: 20px;
 }
 
 /* Footer atribution */
