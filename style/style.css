@@ -9,6 +9,7 @@
 body {
   background: url('../images/bg-desktop.svg') hsl(257, 40%, 49%);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -24,6 +25,7 @@ body {
 .header {
   width: 100%;
   padding: 50px 0;
+  margin-bottom: 20px;
 }
 
 .header .logo {
@@ -34,12 +36,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-grow: 2;
   margin: 0 50px;
 }
 
 .content-image {
   width: 60%;
+  height: 100%;
 }
 
 .content-image img {
@@ -50,8 +52,9 @@ body {
 
 .content-text {
   width: 40%;
-  margin: 30px;
   color: white;
+  height: 100%;
+  margin: 0 50px;
 }
 
 .content-text h1 {
@@ -75,7 +78,7 @@ body {
   border: 1px solid #fff;
   border-radius: 50px;
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 15px 40px;
   margin: 20px 0;
   display: inline-block;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -89,6 +92,34 @@ body {
 .content-text a:active {
   transform: translate(5px, 5px);
   box-shadow: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 50px;
+}
+
+.fab {
+  width: 70px;
+  height: 70px;
+  color: white;
+  margin: 0 20px;
+  padding: 18px;
+  border: 2px solid white;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: hsl(257, 40%, 49%);
+  background-color: #fff;
 }
 
 /* Footer atribution */
