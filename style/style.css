@@ -79,7 +79,6 @@ body {
   margin: 20px 0;
   display: inline-block;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  transition: all 0.1s ease;
 }
 
 .content-text a:hover {
