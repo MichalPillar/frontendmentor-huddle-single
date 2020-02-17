@@ -50,7 +50,7 @@ body {
 
 .content-text {
   width: 40%;
-  margin: 20px;
+  margin: 30px;
   color: white;
 }
 
@@ -58,13 +58,38 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  line-height: 3rem;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .content-text p {
   line-height: 1.5rem;
-  margin-bottom: 20px;
+  margin: 20px 0;
+}
+
+.content-text a {
+  width: 200px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease;
+}
+
+.content-text a:hover {
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+}
+
+.content-text a:active {
+  transform: translate(5px, 5px);
+  box-shadow: none;
 }
 
 /* Footer atribution */
